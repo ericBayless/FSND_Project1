@@ -1,10 +1,11 @@
 import webbrowser
 
+
 class Movie():
         """ This class provides a way to store movie related information.
 
         Attributes:
-                VALID_RATINGS:  A list containging the valid ratings for a  movie.
+                VALID_RATINGS:  List containging the valid ratings for a movie.
                 title:  The movie title
                 storyline:  The movie description
                 poster_image_url:  URL to the movie poster
@@ -15,8 +16,8 @@ class Movie():
 
         VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
-        def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube,
-                              movie_runtime, movie_rating):
+        def __init__(self, movie_title, movie_storyline, poster_image,
+                     trailer_youtube, movie_runtime, movie_rating):
                 self.title = movie_title
                 self.storyline = movie_storyline
                 self.poster_image_url = poster_image
